@@ -1,6 +1,6 @@
 public class AccountCreator {
     private static AccountCreator accountCreator;
-    int accountNo = 0;
+    int nextAccountNo = 0;
 
     private AccountCreator() {}
 
@@ -12,7 +12,7 @@ public class AccountCreator {
     }
 
     public int getNextAccountNo() {
-        return this.accountNo++;
+        return this.nextAccountNo++;
     }
 }
 
