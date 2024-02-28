@@ -1,4 +1,3 @@
-
 interface List extends Iterable {
     void remove(int index);
 
@@ -9,7 +8,3 @@ interface List extends Iterable {
     int size();
 
 }
-
-
-
-

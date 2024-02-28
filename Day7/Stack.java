@@ -18,7 +18,7 @@ public class Stack<E> {
 
 class StackTest {
     public static void main(String[] args) {
-        List<String> list = new List<String>();
+        //List<String> list = new List<String>();
 
     }
 }
