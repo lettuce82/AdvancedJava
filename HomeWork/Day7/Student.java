@@ -1,8 +1,10 @@
+import java.util.Collections;
+
 public class Student implements Comparable<Student> {
     private int studentNo;
     private String name;
     private String department;
-a
+
     public Student(int studentNo, String name, String department) {
         this.studentNo = studentNo;
         this.name = name;
@@ -17,4 +19,13 @@ a
     public int compareTo(Student item) {
         return this.studentNo - item.studentNo;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getDepartment() {
+        return this.department;
+    }
+    
 }

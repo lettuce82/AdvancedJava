@@ -27,15 +27,21 @@ public class LinkedList implements List {
         }
     }
 
-        //
-    // add code here for implements add method of List interface
-    //
+    @Override
+    public void add(int data) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
 
-    //
-    // add code here for implements remove method of List interface
-    //
+    @Override
+    public int remove(int index) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'remove'");
+    }
 
-    //
-    // add code here for implements get method of List interface
-    //
+    @Override
+    public int get(int index) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'get'");
+    }
 }
