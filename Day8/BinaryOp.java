@@ -20,9 +20,8 @@ class Algo {
     }
 }
 
-/*
  
-* 람다가 없는 자바
+//* 람다가 없는 자바
 class Adder implements BinaryOP {
     public int apply(int x, int y) {
         return x + y;
@@ -34,7 +33,6 @@ class Mult implements BinaryOP {
         return x * y;
     }
 }
-*/
 
 class BinaryOpTest {
     public static void main(String[] args) {
